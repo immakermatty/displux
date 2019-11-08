@@ -375,9 +375,9 @@ while(run):
             renderer.clearDisplays()
             sleep(1)
 
-            if(now.hour == 12 and now.minute == 0):
-                print("rebooting")
-                os.system('sudo shutdown -r now')
+            #if(now.hour == 12 and now.minute == 0):
+            #    print("rebooting")
+            #    os.system('sudo shutdown -r now')
 
             # except Exception as e:
             #    print(e)
