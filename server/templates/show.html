@@ -1,0 +1,7 @@
+{% extends "layout.html" %}
+{% block body %}
+    {% for pic in pictures %}
+        <p><img src="{{ pic }}"></p>
+    {% endfor %}
+{% endblock %}
+
